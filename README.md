@@ -2,17 +2,18 @@
 
 A collection of university laboratory exercises for algorithms and data structures.
 
-Each exercise is kept in its own folder and includes a short description, source code, and an example when useful.
+Each lab is kept in a separate folder with simple, readable Python code.
 
 ## Repository structure
 
 ```text
 algorithmlabs/
-├── labs/
-│   └── 01-insertion-sort/
-│       └── insertion_sort.py
-├── .gitignore
-└── README.md
+|-- labs/
+|   |-- 01-insertion-sort/
+|   |-- 02-two-eggs-building/
+|   `-- 03-bubble-and-heap-sort/
+|-- .gitignore
+`-- README.md
 ```
 
 ## Running an exercise
@@ -27,7 +28,9 @@ python labs/01-insertion-sort/insertion_sort.py
 
 | Lab | Topic | Language |
 | --- | --- | --- |
-| 01 | Insertion sort | Python |
+| 01 | Insertion Sort | Python |
+| 02 | Two Eggs and a Building | Python |
+| 03 | Bubble Sort and Heap Sort | Python |
 
 ## License
 
