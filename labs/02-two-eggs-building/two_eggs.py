@@ -29,7 +29,8 @@ def find_breaking_floor(floors: int, breaking_floor: int) -> int:
     first_egg_drops = 0
 
     # Drop the first egg with smaller and smaller jumps.
-    while current_floor <= floors:
+    while previous_safe_floor < floors:
+        current_floor = min(current_floor, floors)
         first_egg_drops += 1
         print(f"First egg: drop from floor {current_floor}.")
 
